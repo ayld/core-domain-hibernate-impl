@@ -10,6 +10,12 @@
 	<packaging>jar</packaging>
 	<name>Core Domain Hibernate</name>
 
+        <parent>
+              <groupId>ayld.core</groupId>
+              <artifactId>parent</artifactId>
+              <version>0.0.1-SNAPSHOT</version>
+        </parent>
+
 	<properties>
 		<org.springframework.version>3.0.5.RELEASE</org.springframework.version>
 		<hibernate.version>3.5.6-Final</hibernate.version>
